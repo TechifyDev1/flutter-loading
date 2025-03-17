@@ -11,5 +11,11 @@ void main() {
         list == 5 ? print("object") : print("Subject");
       print("the current number is $list");
     }
+    Set<int> ages = {1, 5, 69, 6, 7, 8};
+    print(ages);
     greet("TechifyDev");
+    Map<String, int> users = {"Alien": 56, "bob": 12, "TechifyDev": 100};
+    print(users["TechifyDev"]);
+    users["Habeeb"] = 65;
+    print(users["Habeeb"]);
 }
